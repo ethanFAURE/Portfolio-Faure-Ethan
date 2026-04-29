@@ -1,0 +1,144 @@
+﻿import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+export default function Home() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // équivalent de initHome()
+    const btnProjects = document.getElementById("btn-projects");
+    const btnContact = document.getElementById("btn-contact");
+
+    if (btnProjects) {
+      btnProjects.addEventListener("click", () => navigate("/projects"));
+    }
+
+    if (btnContact) {
+      btnContact.addEventListener("click", () => navigate("/contact"));
+    }
+
+    return () => {
+      // cleanup (important en React)
+      if (btnProjects) {
+        btnProjects.removeEventListener("click", () => navigate("/projects"));
+      }
+      if (btnContact) {
+        btnContact.removeEventListener("click", () => navigate("/contact"));
+      }
+    };
+  }, [navigate]);
+
+  return (
+    <div className="Home">
+      {/* HERO */}
+      <section className="hero">
+        <div className="hero-left">
+
+          <div className="hero-tag">Développeur jeux vidéo</div>
+
+          <h1 className="hero-name">
+            ALEX <br />
+            <span className="hollow">MARTIN</span>
+          </h1>
+
+          <div className="hero-title">
+            <span>// </span>Game Developer & Engine Architect
+          </div>
+
+          <p className="hero-desc">
+            Passionné par la création d'expériences interactives immersives,
+            je conçois des jeux vidéo alliant performance technique et design artistique.
+          </p>
+
+          <div className="hero-buttons">
+            <button id="btn-projects" className="btn btn-primary">
+              ▶ Voir mes projets
+            </button>
+
+            <button id="btn-contact" className="btn btn-outline">
+              Me contacter
+            </button>
+          </div>
+
+        </div>
+
+        <div className="hero-right">
+          <div className="avatar-frame">
+            <div className="avatar-inner">AM</div>
+          </div>
+        </div>
+      </section>
+
+      {/* STATS */}
+      <section className="stats-row">
+        <div className="stat">
+          <div className="stat-num">6+</div>
+          <div className="stat-label">Projets réalisés</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-num">3</div>
+          <div className="stat-label">Moteurs maîtrisés</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-num">4</div>
+          <div className="stat-label">Ans d'expérience</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-num">12</div>
+          <div className="stat-label">Technologies</div>
+        </div>
+      </section>
+
+      {/* PARCOURS */}
+      <section className="section">
+        <h2>Parcours professionnel</h2>
+
+        <div className="timeline">
+          <div className="timeline-item">
+            <h3>Développeur Jeux Vidéo Junior</h3>
+            <p>Studio indépendant — 2023 - présent</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>Stage Gameplay</h3>
+            <p>GameForge Studio — 2022</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>Bachelor Game Dev</h3>
+            <p>ISART Digital — 2019 - 2022</p>
+          </div>
+        </div>
+      </section>
+
+      {/* SKILLS (remplacé propre React) */}
+      <section className="section">
+        <h2>Compétences</h2>
+
+        <div className="skills-grid">
+          <span>C++</span>
+          <span>C#</span>
+          <span>Unity</span>
+          <span>Unreal Engine</span>
+          <span>JavaScript</span>
+          <span>React</span>
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section className="section">
+        <h2>Projets en vedette</h2>
+
+        <div className="projects-grid">
+          <div className="project-card">Projet 1</div>
+          <div className="project-card">Projet 2</div>
+          <div className="project-card">Projet 3</div>
+        </div>
+      </section>
+
+    </div>
+  );
+}

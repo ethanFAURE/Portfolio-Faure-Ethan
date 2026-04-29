@@ -1,0 +1,167 @@
+﻿import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+export default function Home() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // équivalent de initHome()
+    const btnProjects = document.getElementById("btn-projects");
+    const btnContact = document.getElementById("btn-contact");
+
+    if (btnProjects) {
+      btnProjects.addEventListener("click", () => navigate("/projects"));
+    }
+
+    if (btnContact) {
+      btnContact.addEventListener("click", () => navigate("/contact"));
+    }
+
+    return () => {
+      // cleanup (important en React)
+      if (btnProjects) {
+        btnProjects.removeEventListener("click", () => navigate("/projects"));
+      }
+      if (btnContact) {
+        btnContact.removeEventListener("click", () => navigate("/contact"));
+      }
+    };
+  }, [navigate]);
+
+  return (
+    <div className="Home">
+      {/* HERO */}
+      <section className="hero">
+        <div className="hero-left">
+
+          <div className="hero-tag">Stage en développement de jeux vidéos</div>
+
+          <h1 className="hero-name">
+            ETHAN <br />
+            <span className="hollow">FAURE</span>
+          </h1>
+
+          <div className="hero-title">
+            <span>// </span>Développeur Informatique, option Jeu Vidéo
+          </div>
+
+          <p className="hero-desc">
+            Créatif, dynamique et sociable, j'apporte une énergie positive dans
+            les projets auxquels je participe. J'apprécie le travail en équipe et
+            les échanges constructifs.
+          </p>
+
+          <div className="hero-buttons">
+            <button id="btn-projects" className="btn btn-primary">
+              ▶ Voir mes projets
+            </button>
+
+            <button id="btn-contact" className="btn btn-outline">
+              Me contacter
+            </button>
+          </div>
+
+        </div>
+
+        <div className="hero-right">
+          <div className="avatar-frame">
+            <div className="avatar-inner">EF</div>
+          </div>
+        </div>
+      </section>
+
+      {/* STATS */}
+      <section className="stats-row">
+        <div className="stat">
+          <div className="stat-num">6+</div>
+          <div className="stat-label">Projets réalisés</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-num">3</div>
+          <div className="stat-label">Moteurs maîtrisés</div>
+        </div>
+
+        <div className="stat">
+          <div className="stat-num">4</div>
+          <div className="stat-label">Ans d'expérience</div>
+        </div>
+
+        </section>
+
+      {/* PARCOURS / FORMATION & EXPERIENCES */}
+      <section className="section">
+        <h2>Formation</h2>
+
+        <div className="timeline">
+          <div className="timeline-item">
+            <h3>Bachelor Développeur Informatique, option Jeu Vidéo</h3>
+            <p>Gaming Campus (Lyon) — 2024 - Actuellement</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>BUT MMI</h3>
+            <p>IUT Clermont-Auvergne (Vichy) — 2023 - 2024</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>BAC STI2D Option SIN</h3>
+            <p>Lycée H. Carnot (Roanne) — 2020 - 2023</p>
+          </div>
+        </div>
+
+        <h2 style={{ marginTop: "2rem" }}>Expérience</h2>
+
+        <div className="timeline">
+          <div className="timeline-item">
+            <h3>Game Jams</h3>
+            <p>2024 - 2026</p>
+            <p>Participation à plusieurs Game Jams dans lesquels j'ai pu développer mes compétences techniques. Collaboration avec d'autres étudiants sur des projets de création de jeux entièrement sur Unity.</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>Equipier McDonald's</h3>
+            <p>(3 mois) 2025</p>
+            <p>Rigueur et respect des procédures, gestion du temps et des priorités, communication claire, adaptation rapide, gestion du stress, sens de la qualité et résolution de problèmes au quotidien.</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>JPO / visites guidées</h3>
+            <p>2024 - 2026</p>
+            <p>Accueil, visites, présentation des formations.</p>
+          </div>
+
+          <div className="timeline-item">
+            <h3>Participation évènements caritatifs</h3>
+            <p>2024 - 2026</p>
+            <p>Support technique & logistique en environnement live : setup matériel, coordination d'équipe et gestion d'événements en temps réel (Gamer for Pet's, Téléthon Gaming).</p>
+          </div>
+        </div>
+      </section>
+
+      {/* SKILLS */}
+      <section className="section">
+        <h2>Compétences</h2>
+
+        <div className="skills-grid">
+          <span>C++</span>
+          <span>Unity</span> 
+          <span>Git / GitHub</span> 
+          <span>Développement de jeux vidéo</span> <span>Design UX/UI</span> <span>Blender (Modélisation 3D)</span> <span>Développement Web</span> <span>Jeux Multijoueurs</span> <span>Installation de Matériel</span> <span>Architecture de Moteur</span> <span>Réparation d'Ordinateurs</span> <span>Documentation Technique</span> <span>Tableau Dynamique</span> <span>Fonctions C++</span> <span>Programmation Orientée Objet</span> <span>Langage C</span> <span>Bases de Données</span> <span>WordPress</span> <span>Design Graphique</span> <span>Bootstrap</span> <span>Microsoft PowerPoint</span> <span>Microsoft Word</span> <span>Gestion de Projet</span> <span>CSS</span> <span>GanttProject</span> <span>Figma</span> <span>Python</span> <span>Photographie</span> <span>HTML</span> <span>PHP</span> <span>MySQL</span> <span>DaVinci Resolve</span> <span>Adobe InDesign</span> <span>Adobe Illustrator</span> <span>Adobe Photoshop</span>
+        </div>
+      </section>
+
+      {/* PROJECTS */}
+      <section className="section">
+        <h2>Projets en vedette</h2>
+
+        <div className="projects-grid">
+          <div className="project-card">Projet 1</div>
+          <div className="project-card">Projet 2</div>
+          <div className="project-card">Projet 3</div>
+        </div>
+      </section>
+
+    </div>
+  );
+}

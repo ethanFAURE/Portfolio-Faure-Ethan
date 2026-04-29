@@ -1,0 +1,82 @@
+﻿const projects = [
+  {
+    title: "Project A",
+    engine: "Unity",
+    year: "2023",
+    genre: "Action",
+    desc: "Un jeu d'action rapide en 3D.",
+    tags: ["C#", "Unity", "Gameplay"],
+    color: "#ff4d4d",
+    videoUrl: "https://example.com"
+  },
+  {
+    title: "Project B",
+    engine: "Unreal",
+    year: "2022",
+    genre: "FPS",
+    desc: "FPS compétitif multijoueur.",
+    tags: ["C++", "Unreal", "Multiplayer"],
+    color: "#4da6ff",
+    videoUrl: "https://example.com"
+  }
+];
+
+export default function Project() {
+
+  const openVideo = (title, url) => {
+    alert(`Lecture : ${title}\n${url}`);
+  };
+
+  return (
+    <div className="Projets">
+
+      <div className="page-header">
+        <div className="page-header-eyebrow">Portfolio</div>
+        <h1 className="page-header-title">Mes Projets</h1>
+        <p className="page-header-sub">
+          6 jeux développés — vidéos disponibles
+        </p>
+      </div>
+
+      <div className="projects-grid">
+        {projects.map((p, index) => (
+          <div key={index} className="project-card">
+
+            <div
+              className="project-header"
+              style={{ borderTop: `3px solid ${p.color}` }}
+            >
+              <div>
+                <span>{p.engine}</span> • <span>{p.year}</span>
+              </div>
+
+              <div className="project-title">{p.title}</div>
+              <div>{p.genre}</div>
+            </div>
+
+            <div className="project-body">
+              <p>{p.desc}</p>
+
+              <div className="skills-tags">
+                {p.tags.map((t, i) => (
+                  <span key={i} className="skill-tag">{t}</span>
+                ))}
+              </div>
+            </div>
+
+            <div className="project-body">
+              <button
+                className="btn btn-primary"
+                onClick={() => openVideo(p.title, p.videoUrl)}
+              >
+                ▶ Voir la démo
+              </button>
+            </div>
+
+          </div>
+        ))}
+      </div>
+
+    </div>
+  );
+}
