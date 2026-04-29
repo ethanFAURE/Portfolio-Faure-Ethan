@@ -6,7 +6,7 @@ import Home from './Pages/Home.jsx'
 import Project from './Pages/Project.jsx'
 import Contact from './Pages/Contact.jsx'
 
-import "./style.css";
+import "./Style.css";
 
 export default function App() {
   return (
