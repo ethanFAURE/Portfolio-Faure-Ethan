@@ -47,7 +47,7 @@ export const projects = [
     videoSrc: "/Videos/PathFinding/demo.mp4",
     images: [
       { src: "/Images/PathFinding/Debug.png", desc: "Mode debug affichant les nœuds de la grille qui sont vérifier par l'algorithme." },
-      { src: "/Images/PathFinding/Wander.png", desc: "Mode de déplacement suivant les points placer automatiquement"." },
+      { src: "/Images/PathFinding/Wander.png", desc: "Mode de déplacement suivant les points placer automatiquement." },
       { src: "/Images/PathFinding/CustomMap.png", desc: "Intégration du Pathfinding sur un terrain disposant de barricades personnalisées." },
       { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène projetée en trois dimensions." }
     ]
