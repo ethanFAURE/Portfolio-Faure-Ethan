@@ -63,7 +63,7 @@ Ce projet purement algorithmique avait pour but de comprendre en profondeur la n
   },
   {
     title: "Runner",
-    engine: "Unity",
+    engine: "Light Engine (moteur custom)",
     year: "2023",
     genre: "Arcade / Runner",
     durationTeam: "Durée : 2 semaines - 3 personnes",
@@ -71,8 +71,8 @@ Ce projet purement algorithmique avait pour but de comprendre en profondeur la n
     desc: `<strong>DESCRIPTION</strong><br/>
 Un jeu de course infinie où le joueur doit esquiver des obstacles générés procéduralement. La difficulté augmente avec le temps, et le joueur peut utiliser des power-ups pour survivre plus longtemps.<br/><br/>
 <strong>OBJECTIF DU PROJET</strong><br/>
-Le but était de découvrir le moteur Unity et le développement pour plateforme mobile. Nous avons dû gérer la génération procédurale, l'optimisation des performances et l'intégration de contrôles tactiles fluides.`,
-    tags: ["C#", "Mobile", "Level Design"],
+L'objectif principal de ce projet, réalisé sur un moteur custom, était de s'approprier les 3C (Camera, Character, Controller). Nous devions gérer les interactions fluides du personnage, le bon comportement de la caméra et concevoir une architecture logicielle robuste.`,
+    tags: ["C++", "3C", "Level Design", "Architecture", "3D"],
     color: "#33cc33",
     videoSrc: "/Videos/Runner/demo.mp4",
     images: [

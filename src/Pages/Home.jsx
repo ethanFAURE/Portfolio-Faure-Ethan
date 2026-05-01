@@ -82,7 +82,7 @@ export default function Home() {
       <section className="section">
         <h2>Mon Histoire</h2>
         <div style={{ display: "flex", flexDirection: "column", gap: "1rem", lineHeight: "1.6", marginTop: "1.5rem", opacity: 0.9 }}>
-          <p>Depuis l’âge de 3 ans, les jeux vidéo font partie de ma vie. J’ai commencé sur Wii avec des titres comme Mario Kart Wii, Super Smash Bros. Brawl ou encore Super Monkey Ball: Banana Blitz. Très tôt, j’ai développé une vraie curiosité pour cet univers.</p>
+          <p>Depuis l’âge de 3 ans, les jeux vidéo font partie de ma vie. J’ai commencé sur Wii avec des titres comme Mario Kart Wii, ou encore Super Monkey Ball Banana Blitz. Très tôt, j’ai développé une vraie curiosité pour cet univers.</p>
           <p>En grandissant, j’ai exploré énormément de jeux, au point de passer des heures à découvrir tout ce que proposait le Google Play Store. Certains jeux m’ont particulièrement marqué, comme Super Mario Galaxy 2, puis plus tard sur PlayStation avec Horizon Zero Dawn, Unravel Two, Sid Meier's Civilization VI, Slime Rancher, Destiny 2, Genshin Impact, Enter the Gungeon ou encore Elden Ring. J’ai aussi passé plusieurs années sur Rocket League, en parallèle de nombreux jeux indépendants.</p>
           <p>Avec le temps, une évidence s’est imposée : les jeux vidéo n’étaient pas seulement une passion, mais ce que je voulais faire de ma vie. Pourtant, le chemin n’a pas été simple. Pendant longtemps, je voulais créer des jeux sans avoir ni le matériel ni les compétences pour le faire. J’ai donc continué à jouer, en découvrant un maximum d’expériences, avec l’idée que cela me servirait un jour.</p>
           <p>J’ai essayé de m’orienter vers le développement avec un bac STI2D, puis un bachelor MMI, mais je me suis rapidement rendu compte que le développement web ne me correspondait pas. J’ai donc fait le choix de me réorienter vers une formation spécialisée dans le développement de jeux vidéo.</p>
@@ -94,17 +94,12 @@ export default function Home() {
       {/* STATS */}
       <section className="stats-row">
         <div className="stat">
-          <div className="stat-num">6+</div>
+          <div className="stat-num">15+</div>
           <div className="stat-label">Projets réalisés</div>
         </div>
 
         <div className="stat">
-          <div className="stat-num">3</div>
-          <div className="stat-label">Moteurs maîtrisés</div>
-        </div>
-
-        <div className="stat">
-          <div className="stat-num">4</div>
+          <div className="stat-num">2</div>
           <div className="stat-label">Ans d'expérience</div>
         </div>
 
