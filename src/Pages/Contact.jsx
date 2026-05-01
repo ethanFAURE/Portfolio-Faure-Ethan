@@ -34,9 +34,11 @@ export default function Contact() {
     try {
       const templateParams = {
         name: firstname,
+        to_name: firstname,
         title: subject,
         reply_to: email,
         message: message,
+        from_name: `${firstname} ${lastname}`,
       };
 
       await emailjs.send(
