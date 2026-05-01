@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Versel.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\vite.config.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Project.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\Project.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
@@ -15,16 +31,20 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Pages\\Contact.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.jsx||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,19 +63,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Versel.js",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js",
+              "RelativeDocumentMoniker": "Versel.js",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js",
+              "RelativeToolTip": "Versel.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-01T09:16:42.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-05-01T08:16:05.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-01T08:16:02.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "package.json",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAABMAAAAAAAAAAAAtwBwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T08:16:01.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package-lock.json",
+              "RelativeDocumentMoniker": "package-lock.json",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package-lock.json",
+              "RelativeToolTip": "package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-01T08:16:00.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Project.jsx",
               "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Project.jsx",
               "RelativeDocumentMoniker": "src\\Pages\\Project.jsx",
               "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Project.jsx",
               "RelativeToolTip": "src\\Pages\\Project.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCEAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwDEAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-04-30T20:42:29.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
+              "Title": "Home.jsx",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Home.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\Home.jsx",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Home.jsx",
+              "RelativeToolTip": "src\\Pages\\Home.jsx",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-30T20:42:27.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Contact.jsx",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Contact.jsx",
+              "RelativeDocumentMoniker": "src\\Pages\\Contact.jsx",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Contact.jsx",
+              "RelativeToolTip": "src\\Pages\\Contact.jsx",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2026-04-30T20:42:26.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-29T08:36:28.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "main.jsx",
               "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\main.jsx",
               "RelativeDocumentMoniker": "src\\main.jsx",
@@ -67,31 +191,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Home.jsx",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Home.jsx",
-              "RelativeDocumentMoniker": "src\\Pages\\Home.jsx",
-              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Home.jsx",
-              "RelativeToolTip": "src\\Pages\\Home.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:27.215Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Contact.jsx",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Contact.jsx",
-              "RelativeDocumentMoniker": "src\\Pages\\Contact.jsx",
-              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Contact.jsx",
-              "RelativeToolTip": "src\\Pages\\Contact.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:26.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Style.css",
               "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Style.css",
               "RelativeDocumentMoniker": "src\\Style.css",
@@ -100,18 +200,6 @@
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-04-30T20:42:06.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "index.html",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-29T08:36:28.201Z"
             }
           ]
         }

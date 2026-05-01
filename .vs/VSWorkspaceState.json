@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public"
+    "\\public",
+    "\\src",
+    "\\src\\Components",
+    "\\src\\data",
+    "\\src\\Pages"
   ],
+  "SelectedNode": "\\Versel.js",
   "PreviewInSolutionExplorer": false
 }

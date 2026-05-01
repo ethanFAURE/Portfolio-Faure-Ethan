@@ -13,10 +13,9 @@ export const projects = [
     color: "#ffaa00",
     videoSrc: "/videos/submit-demo.mp4",
     images: [
-      {  desc: "Description image 1" },
-      { src: "/images/submit-1.png", desc: "Description image 1" },
-      { src: "/images/submit-2.png", desc: "Description image 2" },
-      { src: "/images/submit-3.png", desc: "Description image 3" }
+      { src: "/images/submit-1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
+      { src: "/images/submit-2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
+      { src: "/images/submit-3.png", desc: "Écran interactif où le joueur gère son équipement et ses compétences." }
     ]
   },
   {
@@ -31,8 +30,8 @@ export const projects = [
     color: "#ff4d4d",
     videoSrc: "/Videos/Arena-Shooter/demo.mp4",
     images: [
-      { src: "/Images/Arena-Shooter/Pile-Drabigus.png", desc: "Menu principal et sélection d'armes." },
-      { src: "/Images/Arena-Shooter/Map-GamePlay.png", desc: "Aperçu du gameplay en arène." },
+      { src: "/Images/Arena-Shooter/Pile-Drabigus.png", desc: "Choix de l'armement avant d'entrer dans l'arène de combat." },
+      { src: "/Images/Arena-Shooter/Map-GamePlay.png", desc: "Vue d'ensemble de la conception de la map pour faire face aux vagues d'ennemis." }
     ]
   },
   {
@@ -42,15 +41,15 @@ export const projects = [
     genre: "Pathfinding",
     durationTeam: "Durée : 2 semaines - 2 personnes",
     mainImage: "/Images/PathFinding/ComonMovement.png",
-    desc: "Test d'algorithmes de recherche de chemin.",
+    desc: "Algorithmes de recherche de chemin.",
     tags: ["C++", "A*", "PFS", "DFS"],
     color: "#4da6ff",
     videoSrc: "/Videos/PathFinding/demo.mp4",
     images: [
-      { src: "/Images/PathFinding/Debug.png", desc: "Génération de la grille de navigation." },
-      { src: "/Images/PathFinding/Wander.png", desc: "Différents obstacles générés aléatoirement." },
-      { src: "/Images/PathFinding/CustomMap.png", desc: "Algorithme A* en cours d'exécution." },
-      { src: "/Images/PathFinding/3D.png", desc: "Algorithme A* en cours d'exécution." }
+      { src: "/Images/PathFinding/Debug.png", desc: "Mode debug affichant les nœuds de la grille qui sont vérifier par l'algorithme." },
+      { src: "/Images/PathFinding/Wander.png", desc: "Mode de déplacement suivant les points placer automatiquement"." },
+      { src: "/Images/PathFinding/CustomMap.png", desc: "Intégration du Pathfinding sur un terrain disposant de barricades personnalisées." },
+      { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène projetée en trois dimensions." }
     ]
   },
   {
@@ -65,10 +64,10 @@ export const projects = [
     color: "#33cc33",
     videoSrc: "/Videos/Runner/demo.mp4",
     images: [
-      { src: "/Images/Runner/BOOST.png", desc: "Description image 2" },
-      { src: "/Images/Runner/BOOST2.png", desc: "Description image 2" },
-      { src: "/Images/Runner/BOOST ACTIF.png", desc: "Description image 2" },
-      { src: "/Images/Runner/FPS.png", desc: "Description image 1" }
+      { src: "/Images/Runner/BOOST.png", desc: "Déclenchement des particules d'accélération sur le parcours." },
+      { src: "/Images/Runner/BOOST2.png", desc: "Section du niveau accélérée pour un gameplay plus exigeant." },
+      { src: "/Images/Runner/BOOST ACTIF.png", desc: "L'effet visuel marquant la pleine vitesse activée du personnage." },
+      { src: "/Images/Runner/FPS.png", desc: "Outil de suivi des performances et du framerate du jeu pendant la course." }
     ]
   },
   {
@@ -83,10 +82,10 @@ export const projects = [
     color: "#9933ff",
     videoSrc: "/Videos/Projet-Fin-D'année/demo.mp4",
     images: [
-      { src: "/Images/Projet-Fin-D'année/Spawn.png", desc: "Description image 1" },
-      { src: "/Images/Projet-Fin-D'année/Tir_deux_coter_avec_beapbop.png", desc: "Description image 1" },
-      { src: "/Images/Projet-Fin-D'année/Features.png", desc: "Description image 1" },
-      { src: "/Images/Projet-Fin-D'année/Level-Maker.png", desc: "Description image 1" },
+      { src: "/Images/Projet-Fin-D'année/Spawn.png", desc: "Visualisation de la zone d'apparition initiale du joueur." },
+      { src: "/Images/Projet-Fin-D'année/Tir_deux_coter_avec_beapbop.png", desc: "Démonstration du système de tir asymétrique géré par le personnage BeapBop." },
+      { src: "/Images/Projet-Fin-D'année/Features.png", desc: "Inventaire récapitulatif des différentes mécaniques implémentées dans le moteur." },
+      { src: "/Images/Projet-Fin-D'année/Level-Maker.png", desc: "Aperçu de l'outil de création et de gestion de niveaux (Level Maker)." }
     ]
   },
   {
@@ -101,10 +100,10 @@ export const projects = [
     color: "#e6e600",
     videoSrc: "/Videos/Shoot-Them-Up/demo.mp4",
     images: [
-      { src: "/Images/Shoot-Them-Up/Shop.png", desc: "Description image 1" },
-      { src: "/Images/Shoot-Them-Up/Select_Level.png", desc: "Description image 2" },
-      { src: "/Images/Shoot-Them-Up/LEVEL1.png", desc: "Description image 2" },
-      { src: "/Images/Shoot-Them-Up/LEVEL2.png", desc: "Description image 2" }
+      { src: "/Images/Shoot-Them-Up/Shop.png", desc: "Interface de la boutique permettant l'amélioration des armes." },
+      { src: "/Images/Shoot-Them-Up/Select_Level.png", desc: "Menu de navigation pour sélectionner la difficulté du prochain niveau." },
+      { src: "/Images/Shoot-Them-Up/LEVEL1.png", desc: "Action en plein cœur du premier niveau lors d'une vague ennemie." },
+      { src: "/Images/Shoot-Them-Up/LEVEL2.png", desc: "Augmentation de la difficulté visuelle et ennemie arrivée au Niveau 2." }
     ]
   }
 ];
