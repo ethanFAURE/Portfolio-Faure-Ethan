@@ -2,13 +2,16 @@ import { useState } from 'react';
 
 export const projects = [
   {
-    title: "Submit Of The Divin",
+    title: "Summit Of The Divin",
     engine: "Faster (Mon Moteur Custom)",
     year: "2024",
     genre: "Rogue Light, RPG, FPS, MultiJoueur",
     durationTeam: "Durée : 3 semaines - 3 personnes",
     mainImage: "/images/submit-main.png",
-    desc: "Description du projet Submit Of The Divin.",
+    desc: `<strong>DESCRIPTION</strong><br/>
+Le but est de battre le boss final du jeu en avançant à travers une multitude de salles avec des événements aléatoires. Avec vos coéquipiers, vous devrez récupérer des armes, améliorer vos statistiques et débloquer de nouvelles compétences pour battre le boss de chaque biome !<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Nous avions carte blanche pour la création d'un jeu qui nous ferait plaisir à coder, la seule contrainte était d'utiliser un moteur spécifique parmi une liste de choix. Le but de ce projet était aussi de montrer les compétences acquises durant l'année et de les mettre en œuvre.`,
     tags: ["C++", "Gameplay", "Design"],
     color: "#ffaa00",
     videoSrc: "/videos/submit-demo.mp4",
@@ -19,18 +22,21 @@ export const projects = [
     ]
   },
   {
-    title: "Arena Shooter",
+    title: "Candy Shooter",
     engine: "GCE Engine (moteur custom)",
     year: "2026",
     genre: "Action / Shooter / FPS",
     durationTeam: "Durée : 2 semaines - 3 personnes",
     mainImage: "/Images/Arena-Shooter/Combat-Boss-Final.png",
-    desc: "Un jeu d'action rapide en 3D.",
+    desc: `<strong>DESCRIPTION</strong><br/>
+Incarnez un personnage armé jusqu'aux dents dans une arène fermée où vous devez survivre à des vagues successives d'ennemis. Collectez des bonus et affrontez un boss final redoutable.<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+L'objectif principal était de prendre en main un moteur custom (GCE Engine) de A à Z. Nous devions concevoir des outils de création de niveau et implémenter une boucle de gameplay rapide et nerveuse.`,
     tags: ["C++", "Gameplay", "Creation d'Outils"],
     color: "#ff4d4d",
     videoSrc: "/Videos/Arena-Shooter/demo.mp4",
     images: [
-      { src: "/Images/Arena-Shooter/Pile-Drabigus.png", desc: "Choix de l'armement avant d'entrer dans l'arène de combat." },
+      { src: "/Images/Arena-Shooter/Pile-Drabigus.png", desc: "Chaque ennemi possède ses propres caractéristiques. Comme on peut le voir ici, ces ennemis s'empilent s'ils entrent en contact et gagnent un bonus de statistiques." },
       { src: "/Images/Arena-Shooter/Map-GamePlay.png", desc: "Vue d'ensemble de la conception de la map pour faire face aux vagues d'ennemis." }
     ]
   },
@@ -41,15 +47,18 @@ export const projects = [
     genre: "Pathfinding",
     durationTeam: "Durée : 2 semaines - 2 personnes",
     mainImage: "/Images/PathFinding/ComonMovement.png",
-    desc: "Algorithmes de recherche de chemin.",
+    desc: `<strong>DESCRIPTION</strong><br/>
+Un outil technique permettant de visualiser différents algorithmes de recherche de chemin (A*, BFS, DFS) en temps réel sur une grille modifiable, dans un environnement 2D puis 3D.<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Ce projet purement algorithmique avait pour but de comprendre en profondeur la navigation d'une intelligence artificielle. Il fallait coder ces algorithmes depuis zéro et les optimiser pour qu'ils soient performants sur de grandes grilles de nœuds.`,
     tags: ["C++", "A*", "PFS", "DFS"],
     color: "#4da6ff",
     videoSrc: "/Videos/PathFinding/demo.mp4",
     images: [
-      { src: "/Images/PathFinding/Debug.png", desc: "Mode debug affichant les nœuds de la grille qui sont vérifier par l'algorithme." },
-      { src: "/Images/PathFinding/Wander.png", desc: "Mode de déplacement suivant les points placer automatiquement." },
-      { src: "/Images/PathFinding/CustomMap.png", desc: "Intégration du Pathfinding sur un terrain disposant de barricades personnalisées." },
-      { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène projetée en trois dimensions." }
+      { src: "/Images/PathFinding/Debug.png", desc: "Mode debug affichant les nœuds de la grille qui sont vérifiés par l'algorithme." },
+      { src: "/Images/PathFinding/Wander.png", desc: "Mode de déplacement suivant des points placés automatiquement." },
+      { src: "/Images/PathFinding/CustomMap.png", desc: "Possibilité de modifier le terrain à sa guise." },
+      { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène en trois dimensions." }
     ]
   },
   {
@@ -59,15 +68,18 @@ export const projects = [
     genre: "Arcade / Runner",
     durationTeam: "Durée : 2 semaines - 3 personnes",
     mainImage: "/Images/Runner/Presentation.png",
-    desc: "Description du projet Runer.",
+    desc: `<strong>DESCRIPTION</strong><br/>
+Un jeu de course infinie où le joueur doit esquiver des obstacles générés procéduralement. La difficulté augmente avec le temps, et le joueur peut utiliser des power-ups pour survivre plus longtemps.<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Le but était de découvrir le moteur Unity et le développement pour plateforme mobile. Nous avons dû gérer la génération procédurale, l'optimisation des performances et l'intégration de contrôles tactiles fluides.`,
     tags: ["C#", "Mobile", "Level Design"],
     color: "#33cc33",
     videoSrc: "/Videos/Runner/demo.mp4",
     images: [
-      { src: "/Images/Runner/BOOST.png", desc: "Déclenchement des particules d'accélération sur le parcours." },
-      { src: "/Images/Runner/BOOST2.png", desc: "Section du niveau accélérée pour un gameplay plus exigeant." },
-      { src: "/Images/Runner/BOOST ACTIF.png", desc: "L'effet visuel marquant la pleine vitesse activée du personnage." },
-      { src: "/Images/Runner/FPS.png", desc: "Outil de suivi des performances et du framerate du jeu pendant la course." }
+      { src: "/Images/Runner/BOOST.png", desc: "Aperçu d'un power-up de boost d'accélération présent sur le parcours." },
+      { src: "/Images/Runner/BOOST2.png", desc: "Activation du JetPack (FlyingBoost) permettant au joueur de voler temporairement." },
+      { src: "/Images/Runner/BOOST ACTIF.png", desc: "Augmentation progressive du nombre d'obstacles et de la difficulté en cours de partie." },
+      { src: "/Images/Runner/FPS.png", desc: "Possibilité de changer de point de vue pendant la course." }
     ]
   },
   {
@@ -77,15 +89,24 @@ export const projects = [
     genre: "Divers",
     durationTeam: "Durée : 2 semaines - 8 personnes",
     mainImage: "/Images/Projet-Fin-D'année/Tir_coter_droit_avec_beapbop.png",
-    desc: "Description de votre projet de fin d'année.",
+    desc: `<strong>DESCRIPTION</strong><br/>
+Notre jeu de fin d'année englobe de nombreuses mécaniques complexes (téléportation, destruction d'environnement, asymétrie). Le projet propose un éditeur de niveaux intégré pour faciliter la création par l'équipe.<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Apprendre à travailler en équipe nombreuse (8 personnes) sur un vrai cycle de production, avec des pôles séparés (code, architecture, design). La création d'un "Level Maker" custom était essentielle pour automatiser notre flux de travail.`,
     tags: ["Programmation", "Architecture", "Travail d'équipe"],
     color: "#9933ff",
     videoSrc: "/Videos/Projet-Fin-D'année/demo.mp4",
     images: [
       { src: "/Images/Projet-Fin-D'année/Spawn.png", desc: "Visualisation de la zone d'apparition initiale du joueur." },
       { src: "/Images/Projet-Fin-D'année/Tir_deux_coter_avec_beapbop.png", desc: "Démonstration du système de tir asymétrique géré par le personnage BeapBop." },
-      { src: "/Images/Projet-Fin-D'année/Features.png", desc: "Inventaire récapitulatif des différentes mécaniques implémentées dans le moteur." },
-      { src: "/Images/Projet-Fin-D'année/Level-Maker.png", desc: "Aperçu de l'outil de création et de gestion de niveaux (Level Maker)." }
+      { 
+        src: "/Images/Projet-Fin-D'année/Features.png", 
+        desc: "On peut voir différentes fonctionnalités qui ont été implémentées comme les téléporteurs, les blocs destructibles en fonction d'un événement, les passages secrets, <br /> et la fonction qui permet de placer la caméra sur un plan précis de la scène en fonction de la description." 
+      },
+      { 
+        src: "/Images/Projet-Fin-D'année/Level-Maker.png", 
+        desc: "Aperçu de l'outil de création et de gestion de niveaux (Level Maker) en fichier txt." 
+      }
     ]
   },
   {
@@ -95,14 +116,16 @@ export const projects = [
     genre: "Shoot Them Up",
     durationTeam: "Durée : 2 semaines - 2 personnes",
     mainImage: "/Images/Shoot-Them-Up/LEVEL1-1.png",
-    desc: "Description du projet Shoot Them Up.",
-    tags: ["C#", "2D", "ASFML", "Architecture Code", "Encpsulation", ],
+    desc: `<strong>DESCRIPTION</strong><br/>
+Un shoot 'em up classique vu de dessus où le joueur doit éliminer des vagues d'ennemis tout en esquivant un nombre grandissant de projectiles. Entre les niveaux, le joueur peut améliorer son vaisseau.<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Mettre en pratique l'encapsulation et l'architecture logicielle propre en C#. Nous devions créer des systèmes capables de gérer beaucoup d'entités à l'écran sans impacter les performances.`,
+    tags: ["C#", "2D", "ASFML", "Architecture Code", "Encapsulation"],
     color: "#e6e600",
     videoSrc: "/Videos/Shoot-Them-Up/demo.mp4",
     images: [
-      { src: "/Images/Shoot-Them-Up/Shop.png", desc: "Interface de la boutique permettant l'amélioration des armes." },
-      { src: "/Images/Shoot-Them-Up/Select_Level.png", desc: "Menu de navigation pour sélectionner la difficulté du prochain niveau." },
-      { src: "/Images/Shoot-Them-Up/LEVEL1.png", desc: "Action en plein cœur du premier niveau lors d'une vague ennemie." },
+      { src: "/Images/Shoot-Them-Up/Shop.png", desc: "Interface de la boutique permettant de modifier son skin et son équipement." },
+      { src: "/Images/Shoot-Them-Up/Select_Level.png", desc: "Menu de navigation pour sélectionner le niveau actuel." },
       { src: "/Images/Shoot-Them-Up/LEVEL2.png", desc: "Augmentation de la difficulté visuelle et ennemie arrivée au Niveau 2." }
     ]
   }
@@ -146,7 +169,8 @@ function ProjectCard({ p }) {
         )}
 
         <div className="project-body">
-          <p>{p.desc}</p>
+          {/* Rendu HTML pour interpréter <br/> et <strong> */}
+          <p dangerouslySetInnerHTML={{ __html: p.desc }}></p>
 
           <div className="skills-tags">
             {p.tags.map((t, i) => (
@@ -182,9 +206,10 @@ function ProjectCard({ p }) {
                   alt={`${p.title} - ${idx + 1}`} 
                   style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
                 />
-                <p style={{ fontSize: '0.85rem', color: '#ccc', margin: '5px 0 0 0', textAlign: 'center' }}>
-                  {img.desc}
-                </p>
+                <p 
+                  style={{ fontSize: '0.85rem', color: '#ccc', margin: '5px 0 0 0', textAlign: 'center' }}
+                  dangerouslySetInnerHTML={{ __html: img.desc }}
+                />  
               </div>
             ))}
           </div>

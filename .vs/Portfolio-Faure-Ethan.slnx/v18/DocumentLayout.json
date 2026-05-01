@@ -70,7 +70,8 @@
               "RelativeToolTip": "Versel.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T09:30:05.62Z"
+              "WhenOpened": "2026-05-01T09:30:05.62Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +83,8 @@
               "RelativeToolTip": "vite.config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-01T08:16:05.276Z"
+              "WhenOpened": "2026-05-01T08:16:05.276Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -94,7 +96,8 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-01T08:16:02.59Z"
+              "WhenOpened": "2026-05-01T08:16:02.59Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -106,7 +109,8 @@
               "RelativeToolTip": "package.json",
               "ViewState": "AgIAABMAAAAAAAAAAAAtwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T08:16:01.622Z"
+              "WhenOpened": "2026-05-01T08:16:01.622Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -118,7 +122,8 @@
               "RelativeToolTip": "package-lock.json",
               "ViewState": "AgIAABsAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T08:16:00.926Z"
+              "WhenOpened": "2026-05-01T08:16:00.926Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -128,7 +133,7 @@
               "RelativeDocumentMoniker": "src\\Pages\\Project.jsx",
               "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\src\\Pages\\Project.jsx",
               "RelativeToolTip": "src\\Pages\\Project.jsx",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADEAAAB1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2026-04-30T20:42:29.549Z",
               "EditorCaption": ""
@@ -143,7 +148,8 @@
               "RelativeToolTip": "src\\Pages\\Home.jsx",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:27.215Z"
+              "WhenOpened": "2026-04-30T20:42:27.215Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -168,7 +174,8 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-29T08:36:28.201Z"
+              "WhenOpened": "2026-04-29T08:36:28.201Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -180,7 +187,8 @@
               "RelativeToolTip": "src\\main.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:27.859Z"
+              "WhenOpened": "2026-04-30T20:42:27.859Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -192,7 +200,8 @@
               "RelativeToolTip": "src\\Style.css",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-30T20:42:06.025Z"
+              "WhenOpened": "2026-04-30T20:42:06.025Z",
+              "EditorCaption": ""
             }
           ]
         }
