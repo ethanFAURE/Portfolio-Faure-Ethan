@@ -33,9 +33,9 @@ export default function Contact() {
 
     try {
       const templateParams = {
-        from_name: `${firstname} ${lastname}`,
+        name: firstname,
+        title: subject,
         reply_to: email,
-        subject: subject || "Nouveau message depuis le portfolio",
         message: message,
       };
 

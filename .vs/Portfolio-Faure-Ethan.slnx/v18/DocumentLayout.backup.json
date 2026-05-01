@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Versel.js||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Versel.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -63,13 +63,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Versel.js",
-              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js",
-              "RelativeDocumentMoniker": "Versel.js",
-              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.js",
-              "RelativeToolTip": "Versel.js",
+              "Title": "Versel.json",
+              "DocumentMoniker": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.json",
+              "RelativeDocumentMoniker": "Versel.json",
+              "ToolTip": "D:\\C\u002B\u002B\\Portfolio-Faure-Ethan\\Versel.json",
+              "RelativeToolTip": "Versel.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-05-01T09:16:42.204Z",
               "EditorCaption": ""
             },
@@ -83,8 +83,7 @@
               "RelativeToolTip": "vite.config.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2026-05-01T08:16:05.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T08:16:05.276Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "README.md",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2026-05-01T08:16:02.59Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T08:16:02.59Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "package.json",
               "ViewState": "AgIAABMAAAAAAAAAAAAtwBwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T08:16:01.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T08:16:01.622Z"
             },
             {
               "$type": "Document",
@@ -122,8 +119,7 @@
               "RelativeToolTip": "package-lock.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-01T08:16:00.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-01T08:16:00.926Z"
             },
             {
               "$type": "Document",
@@ -135,8 +131,7 @@
               "RelativeToolTip": "src\\Pages\\Project.jsx",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwDEAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:29.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:42:29.549Z"
             },
             {
               "$type": "Document",
@@ -148,8 +143,7 @@
               "RelativeToolTip": "src\\Pages\\Home.jsx",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:27.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:42:27.215Z"
             },
             {
               "$type": "Document",
@@ -161,8 +155,7 @@
               "RelativeToolTip": "src\\Pages\\Contact.jsx",
               "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2026-04-30T20:42:26.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-30T20:42:26.442Z"
             },
             {
               "$type": "Document",
@@ -174,8 +167,7 @@
               "RelativeToolTip": "index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2026-04-29T08:36:28.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-29T08:36:28.201Z"
             },
             {
               "$type": "Document",
