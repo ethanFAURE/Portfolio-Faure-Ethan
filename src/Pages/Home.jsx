@@ -73,7 +73,9 @@ export default function Home() {
 
         <div className="hero-right">
           <div className="avatar-frame">
-            <div className="avatar-inner">EF</div>
+            <div className="avatar-inner">
+              <img src="/Images/Home-Page/PP.png" alt="Avatar" />
+            </div>
           </div>
         </div>
       </section>

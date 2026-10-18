@@ -1,10 +1,29 @@
 import { useState } from 'react';
 
 export const projects = [
+    {
+    title: "CRABATTLE",
+    engine: "Unity",
+    year: "2026",
+    genre: "Solo, Open World",
+    durationTeam: "Durée : 2 personnes, 1.5 semaine",
+mainImage: "/Images/CRABATTLE/Title.png",
+desc: `Dans cet open world post-apocalyptique, vous incarnez Craby, le dernier survivant de son village après le terrible tsunami qui a ravagé une partie de l’île. Votre but est d’explorer le monde et de retrouver vos compagnons perdus, car à votre réveil, vous êtes seul !<br/><br/>
+<strong>OBJECTIF DU PROJET</strong><br/>
+Dans ce premier projet nous devions apprendre à exploiter les 3C dans l'environnement que nous voulions, la seule contrainte était d'avoir une vue top down.`,
+    tags: ["C#", "3C", "Top Down", "Open World"],
+    color: "#ffaa00",
+videoSrc: "/Videos/CRABATTLE/pres.mp4",
+images: [
+      { src: "/Images/CRABATTLE/1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
+      { src: "/Images/CRABATTLE/2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
+      { src: "/Images/CRABATTLE/3.png", desc: "Écran interactif où le joueur gère son équipement et ses compétences." }
+    ]
+  },
   {
     title: "Summit Of The Divin",
     engine: "Faster (Mon Moteur Custom)",
-    year: "2024",
+    year: "2026",
     genre: "Rogue Light, RPG, FPS, MultiJoueur",
     durationTeam: "Durée : 3 semaines - 3 personnes",
     mainImage: "/images/submit-main.png",
