@@ -1,45 +1,63 @@
 import { useState } from 'react';
 
 export const projects = [
-{
-  title: "Duck And Furious",
-  engine: "Unity",
-  year: "2026",
-  genre: "Solo, Donjon Crawler",
-  durationTeam: "Durée : 2 personnes, 2 semaines",
-  mainImage: "/Images/Duck-And-Furious/Title.png",
+  {
+    title: "Over The Sea",
+    engine: "Unity",
+    year: "2026",
+    genre: "Shader, VFX, Shader Graph, Particle Graph",
+    durationTeam: "Durée : 2 semaines - 2 personnes",
+    mainImage: "/Images/Over-The-Sea/Title.png",
 
-  desc: `<strong>DESCRIPTION</strong><br/>
-      Un donjon crawler solo dont la carte est une ville générée de façon procédurale.
-      Les immeubles et les salles de donjon sont créés par des algorithmes différents,
-      les pièces sont piégées automatiquement, et le joueur peut récupérer du loot
-      et des cosmétiques à équiper sur son personnage.
-      <br/><br/>`,
+    desc: `<strong>DESCRIPTION</strong><br/>
+        Un projet axé sur les effets visuels, dans un monde d'îles entouré d'océan.
+        Le monde et l'océan sont générés de façon procédurale, et l'ambiance est
+        construite avec plusieurs effets : brouillard, vent, vaguelettes autour des îles
+        et effets d'impact. Le joueur peut aussi enchaîner des attaques.
+        <br/><br/>`,
 
-  objective: `<strong>OBJECTIF DU PROJET</strong><br/>
-      Nous devions réaliser un donjon crawler en 2 semaines en utilisant
-      au moins un des 4 algorithmes de génération procédurale vus en cours.`,
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        Ce projet de 2 semaines avait pour but d'apprendre le HLSL et, plus précisément,
+        les Shader Graphs pour réaliser des VFX.`,
 
-  tags: ["C#", "Génération procédurale", "BSP", "Cellular Automata", "Loot"],
-  color: "#ffaa00",
-  videoSrc: "/Videos/Duck-And-Furious/demo.mp4",
-  images: [
-    {
-      src: "/Images/Duck-And-Furious/1.png",
-      desc: "Présentation de la map, une ville générée de façon procédurale et vue du dessus. Le BSP est utilisé pour les salles du donjon et le SRP pour les immeubles."
-    },
-    {
-      src: "/Images/Duck-And-Furious/2.png",
-      desc: "Le Cellular Automata est utilisé pour générer les pièges à l'intérieur des salles."
-    },
-    {
-      src: "/Images/Duck-And-Furious/3.png",
-      desc: "Système de loot et de cosmétiques, qui peuvent être équipés sur le personnage."
-    }
-  ]
-},
+    tags: ["Shader Graph", "HLSL", "VFX", "Génération procédurale", "Unity"],
+    color: "#4da6ff",
+    videoSrc: "/Videos/Over-The-Sea/WorldGeneration.mkv",
+    images: [
+      { src: "/Videos/Over-The-Sea/Wind.mkv", desc: "Effet de vent réalisé avec les Shader Graphs." },
+      { src: "/Videos/Over-The-Sea/WorldGeneration.mkv", desc: "Génération procédurale du monde et des îles, avec les effets d'eau et de brouillard." },
+      { src: "/Videos/Over-The-Sea/CombosEffects.mkv", desc: "Le joueur frappe un ennemi, déclenche son ultime, puis enchaîne avec un combo d'attaques." }
+    ]
+  },
+  {
+    title: "Duck And Furious",
+    engine: "Unity",
+    year: "2026",
+    genre: "Solo, Donjon Crawler, Mission",
+    durationTeam: "Durée : 2 personnes, 2 semaines",
+    mainImage: "/Images/Duck-And-Furious/Title.png",
 
-{
+    desc: `<strong>DESCRIPTION</strong><br/>
+        Un donjon crawler solo dont la carte est une ville générée de façon procédurale.
+        Les immeubles et les salles de donjon sont créés par des algorithmes différents,
+        les pièces sont piégées automatiquement, et le joueur peut récupérer du loot
+        et des cosmétiques à équiper sur son personnage.
+        <br/><br/>`,
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        Nous devions réaliser un donjon crawler en 2 semaines en utilisant
+        au moins un des 4 algorithmes de génération procédurale vus en cours.`,
+
+    tags: ["C#", "Génération procédurale", "BSP", "Cellular Automata", "Loot"],
+    color: "#ffaa00",
+    videoSrc: "/Videos/Duck-And-Furious/demo.mp4",
+    images: [
+      { src: "/Images/Duck-And-Furious/1.png", desc: "Présentation de la map, une ville générée de façon procédurale et vue du dessus. Le BSP est utilisé pour les salles du donjon et le SRP pour les immeubles." },
+      { src: "/Images/Duck-And-Furious/2.png", desc: "Le Cellular Automata est utilisé pour générer les pièges à l'intérieur des salles." },
+      { src: "/Images/Duck-And-Furious/3.png", desc: "Système de loot et de cosmétiques, qui peuvent être équipés sur le personnage." }
+    ]
+  },
+  {
     title: "CRABATTLE",
     engine: "Unity",
     year: "2026",
@@ -49,8 +67,8 @@ export const projects = [
 
     desc: `<strong>DESCRIPTION</strong><br/>
         Dans cet open world post-apocalyptique, vous incarnez Craby,
-        le dernier survivant de son village après le terrible tsunami qui a ravagé une partie de l’île.
-        Votre but est d’explorer le monde et de retrouver vos compagnons perdus, car à votre réveil, vous êtes seul !
+        le dernier survivant de son village après le terrible tsunami qui a ravagé une partie de l'île.
+        Votre but est d'explorer le monde et de retrouver vos compagnons perdus, car à votre réveil, vous êtes seul !
         <br/><br/>`,
 
     objective: `<strong>OBJECTIF DU PROJET</strong><br/>
@@ -72,7 +90,7 @@ export const projects = [
     year: "2026",
     genre: "Rogue Light, RPG, FPS, MultiJoueur",
     durationTeam: "Durée : 3 semaines - 3 personnes",
-    mainImage: "/images/submit-main.png",
+    mainImage: "/Images/Submit-Of-The-Divine/Image1.png",
 
     desc: `<strong>DESCRIPTION</strong><br/>
         Le but est de battre le boss final du jeu en avançant à travers une multitude
@@ -88,7 +106,7 @@ export const projects = [
 
     tags: ["C++", "Gameplay", "Design"],
     color: "#ffaa00",
-    videoSrc: "/videos/Submit-Of-The-Divine/demo.mp4",
+    videoSrc: "/Videos/Submit-Of-The-Divine/demo.mp4",
     images: [
       { src: "/Images/Submit-Of-The-Divine/Image1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
       { src: "/Images/Submit-Of-The-Divine/Image2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
@@ -120,7 +138,6 @@ export const projects = [
       { src: "/Images/Arena-Shooter/Map-GamePlay.png", desc: "Vue d'ensemble de la conception de la map pour faire face aux vagues d'ennemis." }
     ]
   },
-
   {
     title: "PathFinding",
     engine: "Light Engine (moteur custom)",
@@ -134,9 +151,9 @@ export const projects = [
         en temps réel sur une grille modifiable, dans un environnement 2D puis 3D.
         <br/><br/>`,
 
-    objective:`<strong>OBJECTIF DU PROJET</strong><br/>
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
         Ce projet purement algorithmique avait pour but de comprendre en profondeur
-        la navigation d'une intelligence artificielle. Il fallait coder ces algorithmes 
+        la navigation d'une intelligence artificielle. Il fallait coder ces algorithmes
         depuis zéro et les optimiser pour qu'ils soient performants sur de grandes grilles de nœuds.`,
 
     tags: ["C++", "A*", "PFS", "DFS"],
@@ -149,7 +166,6 @@ export const projects = [
       { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène en trois dimensions." }
     ]
   },
-
   {
     title: "Runner",
     engine: "Light Engine (moteur custom)",
@@ -164,8 +180,8 @@ export const projects = [
         <br/><br/>`,
 
     objective: `<strong>OBJECTIF DU PROJET</strong><br/>
-        L'objectif principal de ce projet, réalisé sur un moteur custom, 
-        était de s'approprier les 3C (Camera, Character, Controller). 
+        L'objectif principal de ce projet, réalisé sur un moteur custom,
+        était de s'approprier les 3C (Camera, Character, Controller).
         Nous devions gérer les interactions fluides du personnage, le bon comportement de la caméra
         et concevoir une architecture logicielle robuste.`,
 
@@ -193,7 +209,7 @@ export const projects = [
         Le projet propose un éditeur de niveaux intégré pour faciliter la création par l'équipe.
         <br/><br/>`,
 
-    objective : `<strong>OBJECTIF DU PROJET</strong><br/>
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
         Apprendre à travailler en équipe nombreuse (8 personnes) sur un vrai cycle de production,
         avec des pôles séparés (code, architecture, design). La création d'un "Level Maker"
         custom était essentielle pour automatiser notre flux de travail.`,
@@ -204,13 +220,13 @@ export const projects = [
     images: [
       { src: "/Images/Projet-Fin-D'année/Spawn.png", desc: "Visualisation de la zone d'apparition initiale du joueur." },
       { src: "/Images/Projet-Fin-D'année/Tir_deux_coter_avec_beapbop.png", desc: "Démonstration du système de tir asymétrique géré par le personnage BeapBop." },
-      { 
-        src: "/Images/Projet-Fin-D'année/Features.png", 
-        desc: "On peut voir différentes fonctionnalités qui ont été implémentées comme les téléporteurs, les blocs destructibles en fonction d'un événement, les passages secrets, <br /> et la fonction qui permet de placer la caméra sur un plan précis de la scène en fonction de la description." 
+      {
+        src: "/Images/Projet-Fin-D'année/Features.png",
+        desc: "On peut voir différentes fonctionnalités qui ont été implémentées comme les téléporteurs, les blocs destructibles en fonction d'un événement, les passages secrets, <br /> et la fonction qui permet de placer la caméra sur un plan précis de la scène en fonction de la description."
       },
-      { 
-        src: "/Images/Projet-Fin-D'année/Level-Maker.png", 
-        desc: "Aperçu de l'outil de création et de gestion de niveaux (Level Maker) en fichier txt." 
+      {
+        src: "/Images/Projet-Fin-D'année/Level-Maker.png",
+        desc: "Aperçu de l'outil de création et de gestion de niveaux (Level Maker) en fichier txt."
       }
     ]
   },
@@ -227,8 +243,8 @@ export const projects = [
         tout en esquivant un nombre grandissant de projectiles. Entre les niveaux,
         le joueur peut améliorer son vaisseau.
         <br/><br/>`,
-    
-        objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
         Mettre en pratique l'encapsulation et l'architecture logicielle propre en C++.
         Nous devions créer des systèmes capables de gérer beaucoup d'entités à l'écran sans impacter les performances.`,
 
@@ -243,13 +259,20 @@ export const projects = [
   }
 ];
 
+// Détecte si un fichier est une vidéo ou une image
+const isVideo = (src) => /\.(mp4|webm|mkv|mov)$/i.test(src);
+
 function ProjectCard({ p }) {
-  const [showImages, setShowImages] = useState(false);
+  const [showGallery, setShowGallery] = useState(false);
   const [showVideo, setShowVideo] = useState(false);
+
+  const hasGallery = p.images && p.images.length > 0;
 
   return (
     <>
       <div className="project-card" style={{ width: '100%' }}>
+
+        {/* EN-TÊTE */}
         <div
           className="project-header"
           style={{ borderTop: `3px solid ${p.color}` }}
@@ -270,23 +293,20 @@ function ProjectCard({ p }) {
           <div>{p.genre}</div>
         </div>
 
+        {/* IMAGE DE TITRE */}
         {p.mainImage && (
           <div style={{ padding: '0 15px', marginTop: '15px' }}>
-            <img 
-              src={p.mainImage} 
-              alt={`Couverture de ${p.title}`} 
-              style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '8px' }} 
+            <img
+              src={p.mainImage}
+              alt={`Couverture de ${p.title}`}
+              style={{ width: '100%', maxHeight: '400px', objectFit: 'cover', borderRadius: '8px' }}
             />
           </div>
         )}
 
+        {/* DESCRIPTION + OBJECTIF + TAGS */}
         <div className="project-body">
-
-          {/* Description */}
-
           <p dangerouslySetInnerHTML={{ __html: p.desc }}></p>
-
-          {/* Objectif du projet */}
 
           {p.objective && (
             <p dangerouslySetInnerHTML={{ __html: p.objective }}></p>
@@ -299,6 +319,7 @@ function ProjectCard({ p }) {
           </div>
         </div>
 
+        {/* BOUTONS */}
         <div className="project-body" style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
           <button
             className="btn btn-primary"
@@ -306,30 +327,41 @@ function ProjectCard({ p }) {
           >
             ▶ Voir la démo
           </button>
-          
-          {p.images && p.images.length > 0 && (
+
+          {hasGallery && (
             <button
               className="btn btn-secondary"
-              onClick={() => setShowImages(!showImages)}
+              onClick={() => setShowGallery(!showGallery)}
             >
-              {showImages ? "▲ Masquer les images" : "▼ Découvrir en images"}
+              {showGallery ? "▲ Masquer le détail" : "▼ Découvrir en détail"}
             </button>
           )}
         </div>
 
-        {showImages && p.images && (
+        {/* GALERIE DÉPLIABLE (images + vidéos) */}
+        {showGallery && hasGallery && (
           <div className="project-gallery" style={{ padding: '15px', borderTop: '1px solid #333' }}>
             {p.images.map((img, idx) => (
               <div key={idx} className="gallery-item" style={{ marginBottom: '15px' }}>
-                <img 
-                  src={img.src} 
-                  alt={`${p.title} - ${idx + 1}`} 
-                  style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }} 
-                />
-                <p 
+                {isVideo(img.src) ? (
+                  <video
+                    src={img.src}
+                    controls
+                    muted
+                    loop
+                    style={{ width: '100%', borderRadius: '8px' }}
+                  />
+                ) : (
+                  <img
+                    src={img.src}
+                    alt={`${p.title} - ${idx + 1}`}
+                    style={{ width: '100%', borderRadius: '8px', objectFit: 'cover' }}
+                  />
+                )}
+                <p
                   style={{ fontSize: '0.85rem', color: '#ccc', margin: '5px 0 0 0', textAlign: 'center' }}
                   dangerouslySetInnerHTML={{ __html: img.desc }}
-                />  
+                />
               </div>
             ))}
           </div>
@@ -338,7 +370,7 @@ function ProjectCard({ p }) {
 
       {/* MODALE VIDÉO EN SUPERPOSITION */}
       {showVideo && (
-        <div 
+        <div
           onClick={() => setShowVideo(false)}
           style={{
             position: 'fixed',
@@ -355,7 +387,7 @@ function ProjectCard({ p }) {
             cursor: 'pointer'
           }}
         >
-          <button 
+          <button
             onClick={() => setShowVideo(false)}
             style={{
               position: 'absolute',
@@ -371,10 +403,10 @@ function ProjectCard({ p }) {
             ✖
           </button>
 
-          <video 
-            src={p.videoSrc} 
-            controls 
-            autoPlay 
+          <video
+            src={p.videoSrc}
+            controls
+            autoPlay
             onClick={(e) => e.stopPropagation()}
             style={{
               maxWidth: '80%',
@@ -382,7 +414,7 @@ function ProjectCard({ p }) {
               borderRadius: '12px',
               boxShadow: '0 10px 30px rgba(0,0,0,0.5)',
               cursor: 'default'
-            }} 
+            }}
           >
             Votre navigateur ne supporte pas la balise vidéo.
           </video>
@@ -399,18 +431,18 @@ export default function Project() {
         <div className="page-header-eyebrow">Portfolio</div>
         <h1 className="page-header-title">Mes Projets</h1>
         <p className="page-header-sub">
-          6 jeux développés — vidéos & images disponibles
+          {projects.length} jeux développés — vidéos & images disponibles
         </p>
       </div>
 
-      <div 
-        className="projects-list" 
-        style={{ 
-          display: 'flex', 
-          flexDirection: 'column', 
-          alignItems: 'center', 
-          gap: '2rem', 
-          maxWidth: '900px', 
+      <div
+        className="projects-list"
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '2rem',
+          maxWidth: '900px',
           margin: '0 auto',
           padding: '0 20px'
         }}
