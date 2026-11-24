@@ -201,8 +201,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* PROJECTS */}
-      <section className="section">
+      <section className="section">       {/* PROJECTS */}
+
         <h2>Projets en vedette</h2>
 
         <div className="carousel-container" style={{ position: "relative", maxWidth: "800px", margin: "0 auto", overflow: "hidden" }}>
@@ -239,22 +239,58 @@ export default function Home() {
                   </div>
 
                   <div className="project-body" style={{ padding: "1rem" }}>
-                    <p style={{ marginBottom: "1rem", lineHeight: "1.5" }}>{p.desc}</p>
 
-                    <div className="skills-tags" style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}>
-                      {p.tags.map((t, i) => (
-                        <span key={i} className="skill-tag" style={{ background: "rgba(255,255,255,0.1)", padding: "0.25rem 0.6rem", borderRadius: "4px", fontSize: "0.8rem" }}>{t}</span>
-                      ))}
+                    {/* Image principale */}
+
+                    {p.mainImage && (
+                    <img
+                        src={p.mainImage}
+                        alt={p.title}
+                        style={{
+                        width: "100%",
+                        maxHeight: "300px",
+                        objectFit: "cover",
+                        borderRadius: "8px",
+                        marginBottom: "1rem"
+                        }}
+                    />
+                    )}
+
+                    {/* Description */}
+
+                    <p
+                    style={{ lineHeight: "1.5", marginBottom: "1rem" }}
+                    dangerouslySetInnerHTML={{ __html: p.desc }}
+                    />
+
+                    {/* Tags */}
+
+                    <div
+                    className="skills-tags"
+                    style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem", marginBottom: "1.5rem" }}
+                    >
+                    {p.tags.map((t, i) => (
+                        <span
+                        key={i}
+                        className="skill-tag"
+                        style={{ background: "rgba(255,255,255,0.1)", padding: "0.25rem 0.6rem", borderRadius: "4px", fontSize: "0.8rem" }}
+                        >
+                        {t}
+                        </span>
+                    ))}
                     </div>
 
-                    <button 
-                      className="btn btn-primary" 
-                      onClick={() => window.open(p.videoSrc, "_blank")}
-                      style={{ width: "100%" }}
+                    {/* Bouton démo */}
+
+                    <button
+                    className="btn btn-primary"
+                    onClick={() => window.open(p.videoSrc, "_blank")}
+                    style={{ width: "100%" }}
                     >
-                      ▶ Voir la démo
+                    ▶ Voir la démo
                     </button>
-                  </div>
+
+                </div>
                 </div>
 
               </div>
@@ -295,8 +331,7 @@ export default function Home() {
           </div>
 
         </div>
-
-      </section>
+      </section> {/* PROJECTS */}
 
     </div>
   );

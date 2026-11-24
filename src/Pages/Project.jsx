@@ -1,20 +1,28 @@
 import { useState } from 'react';
 
 export const projects = [
-    {
+{
     title: "CRABATTLE",
     engine: "Unity",
     year: "2026",
     genre: "Solo, Open World",
     durationTeam: "Durée : 2 personnes, 1.5 semaine",
-mainImage: "/Images/CRABATTLE/Title.png",
-desc: `Dans cet open world post-apocalyptique, vous incarnez Craby, le dernier survivant de son village après le terrible tsunami qui a ravagé une partie de l’île. Votre but est d’explorer le monde et de retrouver vos compagnons perdus, car à votre réveil, vous êtes seul !<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-Dans ce premier projet nous devions apprendre à exploiter les 3C dans l'environnement que nous voulions, la seule contrainte était d'avoir une vue top down.`,
+    mainImage: "/Images/CRABATTLE/Title.png",
+
+    desc: `<strong>DESCRIPTION</strong><br/>
+        Dans cet open world post-apocalyptique, vous incarnez Craby,
+        le dernier survivant de son village après le terrible tsunami qui a ravagé une partie de l’île.
+        Votre but est d’explorer le monde et de retrouver vos compagnons perdus, car à votre réveil, vous êtes seul !
+        <br/><br/>`,
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        Dans ce premier projet nous devions apprendre à exploiter les 3C dans l'environnement que nous voulions,
+        la seule contrainte était d'avoir une vue top down.`,
+
     tags: ["C#", "3C", "Top Down", "Open World"],
     color: "#ffaa00",
-videoSrc: "/Videos/CRABATTLE/pres.mp4",
-images: [
+    videoSrc: "/Videos/CRABATTLE/pres.mp4",
+    images: [
       { src: "/Images/CRABATTLE/1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
       { src: "/Images/CRABATTLE/2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
       { src: "/Images/CRABATTLE/3.png", desc: "Écran interactif où le joueur gère son équipement et ses compétences." }
@@ -27,17 +35,26 @@ images: [
     genre: "Rogue Light, RPG, FPS, MultiJoueur",
     durationTeam: "Durée : 3 semaines - 3 personnes",
     mainImage: "/images/submit-main.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Le but est de battre le boss final du jeu en avançant à travers une multitude de salles avec des événements aléatoires. Avec vos coéquipiers, vous devrez récupérer des armes, améliorer vos statistiques et débloquer de nouvelles compétences pour battre le boss de chaque biome !<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-Nous avions carte blanche pour la création d'un jeu qui nous ferait plaisir à coder, la seule contrainte était d'utiliser un moteur spécifique parmi une liste de choix. Le but de ce projet était aussi de montrer les compétences acquises durant l'année et de les mettre en œuvre.`,
+        Le but est de battre le boss final du jeu en avançant à travers une multitude
+        de salles avec des événements aléatoires. Avec vos coéquipiers,
+        vous devrez récupérer des armes, améliorer vos statistiques et débloquer de nouvelles compétences
+        pour battre le boss de chaque biome !
+        <br/><br/>`,
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        Nous avions carte blanche pour la création d'un jeu qui nous ferait plaisir à coder,
+        la seule contrainte était d'utiliser un moteur spécifique parmi une liste de choix.
+        Le but de ce projet était aussi de montrer les compétences acquises durant l'année et de les mettre en œuvre.`,
+
     tags: ["C++", "Gameplay", "Design"],
     color: "#ffaa00",
-    videoSrc: "/videos/submit-demo.mp4",
+    videoSrc: "/videos/Submit-Of-The-Divine/demo.mp4",
     images: [
-      { src: "/images/submit-1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
-      { src: "/images/submit-2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
-      { src: "/images/submit-3.png", desc: "Écran interactif où le joueur gère son équipement et ses compétences." }
+      { src: "/Images/Submit-Of-The-Divine/Image1.png", desc: "Aperçu général des environnements et de l'ambiance du jeu." },
+      { src: "/Images/Submit-Of-The-Divine/Image2.png", desc: "Mise en avant des combats dynamiques en vue à la première personne." },
+      { src: "/Images/Submit-Of-The-Divine/Image3.png", desc: "Écran interactif où le joueur gère son équipement et ses compétences." }
     ]
   },
   {
@@ -47,10 +64,16 @@ Nous avions carte blanche pour la création d'un jeu qui nous ferait plaisir à 
     genre: "Action / Shooter / FPS",
     durationTeam: "Durée : 2 semaines - 3 personnes",
     mainImage: "/Images/Arena-Shooter/Combat-Boss-Final.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Incarnez un personnage armé jusqu'aux dents dans une arène fermée où vous devez survivre à des vagues successives d'ennemis. Collectez des bonus et affrontez un boss final redoutable.<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-L'objectif principal était de prendre en main un moteur custom (GCE Engine) de A à Z. Nous devions concevoir des outils de création de niveau et implémenter une boucle de gameplay rapide et nerveuse.`,
+        Incarnez un personnage armé jusqu'aux dents dans une arène fermée où vous devez survivre
+        à des vagues successives d'ennemis. Collectez des bonus et affrontez un boss final redoutable.
+        <br/><br/>`,
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        L'objectif principal était de prendre en main un moteur custom (GCE Engine) de A à Z.
+        Nous devions concevoir des outils de création de niveau et implémenter une boucle de gameplay rapide et nerveuse.`,
+
     tags: ["C++", "Gameplay", "Creation d'Outils"],
     color: "#ff4d4d",
     videoSrc: "/Videos/Arena-Shooter/demo.mp4",
@@ -59,6 +82,7 @@ L'objectif principal était de prendre en main un moteur custom (GCE Engine) de 
       { src: "/Images/Arena-Shooter/Map-GamePlay.png", desc: "Vue d'ensemble de la conception de la map pour faire face aux vagues d'ennemis." }
     ]
   },
+
   {
     title: "PathFinding",
     engine: "Light Engine (moteur custom)",
@@ -66,10 +90,17 @@ L'objectif principal était de prendre en main un moteur custom (GCE Engine) de 
     genre: "Pathfinding",
     durationTeam: "Durée : 2 semaines - 2 personnes",
     mainImage: "/Images/PathFinding/ComonMovement.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Un outil technique permettant de visualiser différents algorithmes de recherche de chemin (A*, BFS, DFS) en temps réel sur une grille modifiable, dans un environnement 2D puis 3D.<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-Ce projet purement algorithmique avait pour but de comprendre en profondeur la navigation d'une intelligence artificielle. Il fallait coder ces algorithmes depuis zéro et les optimiser pour qu'ils soient performants sur de grandes grilles de nœuds.`,
+        Un outil technique permettant de visualiser différents algorithmes de recherche de chemin (A*, BFS, DFS)
+        en temps réel sur une grille modifiable, dans un environnement 2D puis 3D.
+        <br/><br/>`,
+
+    objective:`<strong>OBJECTIF DU PROJET</strong><br/>
+        Ce projet purement algorithmique avait pour but de comprendre en profondeur
+        la navigation d'une intelligence artificielle. Il fallait coder ces algorithmes 
+        depuis zéro et les optimiser pour qu'ils soient performants sur de grandes grilles de nœuds.`,
+
     tags: ["C++", "A*", "PFS", "DFS"],
     color: "#4da6ff",
     videoSrc: "/Videos/PathFinding/demo.mp4",
@@ -80,6 +111,7 @@ Ce projet purement algorithmique avait pour but de comprendre en profondeur la n
       { src: "/Images/PathFinding/3D.png", desc: "Évolution de l'algorithme vers une scène en trois dimensions." }
     ]
   },
+
   {
     title: "Runner",
     engine: "Light Engine (moteur custom)",
@@ -87,10 +119,18 @@ Ce projet purement algorithmique avait pour but de comprendre en profondeur la n
     genre: "Arcade / Runner",
     durationTeam: "Durée : 2 semaines - 3 personnes",
     mainImage: "/Images/Runner/Presentation.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Un jeu de course infinie où le joueur doit esquiver des obstacles générés procéduralement. La difficulté augmente avec le temps, et le joueur peut utiliser des power-ups pour survivre plus longtemps.<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-L'objectif principal de ce projet, réalisé sur un moteur custom, était de s'approprier les 3C (Camera, Character, Controller). Nous devions gérer les interactions fluides du personnage, le bon comportement de la caméra et concevoir une architecture logicielle robuste.`,
+        Un jeu de course infinie où le joueur doit esquiver des obstacles générés procéduralement.
+        La difficulté augmente avec le temps, et le joueur peut utiliser des power-ups pour survivre plus longtemps.
+        <br/><br/>`,
+
+    objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        L'objectif principal de ce projet, réalisé sur un moteur custom, 
+        était de s'approprier les 3C (Camera, Character, Controller). 
+        Nous devions gérer les interactions fluides du personnage, le bon comportement de la caméra
+        et concevoir une architecture logicielle robuste.`,
+
     tags: ["C++", "3C", "Level Design", "Architecture", "3D"],
     color: "#33cc33",
     videoSrc: "/Videos/Runner/demo.mp4",
@@ -108,10 +148,18 @@ L'objectif principal de ce projet, réalisé sur un moteur custom, était de s'a
     genre: "Divers",
     durationTeam: "Durée : 2 semaines - 8 personnes",
     mainImage: "/Images/Projet-Fin-D'année/Tir_coter_droit_avec_beapbop.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Notre jeu de fin d'année englobe de nombreuses mécaniques complexes (téléportation, destruction d'environnement, asymétrie). Le projet propose un éditeur de niveaux intégré pour faciliter la création par l'équipe.<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-Apprendre à travailler en équipe nombreuse (8 personnes) sur un vrai cycle de production, avec des pôles séparés (code, architecture, design). La création d'un "Level Maker" custom était essentielle pour automatiser notre flux de travail.`,
+        Notre jeu de fin d'année englobe de nombreuses mécaniques complexes
+        (téléportation, destruction d'environnement, asymétrie).
+        Le projet propose un éditeur de niveaux intégré pour faciliter la création par l'équipe.
+        <br/><br/>`,
+
+    objective : `<strong>OBJECTIF DU PROJET</strong><br/>
+        Apprendre à travailler en équipe nombreuse (8 personnes) sur un vrai cycle de production,
+        avec des pôles séparés (code, architecture, design). La création d'un "Level Maker"
+        custom était essentielle pour automatiser notre flux de travail.`,
+
     tags: ["Programmation", "Architecture", "Travail d'équipe"],
     color: "#9933ff",
     videoSrc: "/Videos/Projet-Fin-D'année/demo.mp4",
@@ -135,11 +183,18 @@ Apprendre à travailler en équipe nombreuse (8 personnes) sur un vrai cycle de 
     genre: "Shoot Them Up",
     durationTeam: "Durée : 2 semaines - 2 personnes",
     mainImage: "/Images/Shoot-Them-Up/LEVEL1-1.png",
+
     desc: `<strong>DESCRIPTION</strong><br/>
-Un shoot 'em up classique vu de dessus où le joueur doit éliminer des vagues d'ennemis tout en esquivant un nombre grandissant de projectiles. Entre les niveaux, le joueur peut améliorer son vaisseau.<br/><br/>
-<strong>OBJECTIF DU PROJET</strong><br/>
-Mettre en pratique l'encapsulation et l'architecture logicielle propre en C#. Nous devions créer des systèmes capables de gérer beaucoup d'entités à l'écran sans impacter les performances.`,
-    tags: ["C#", "2D", "ASFML", "Architecture Code", "Encapsulation"],
+        Un shoot 'em up classique vu de dessus où le joueur doit éliminer des vagues d'ennemis
+        tout en esquivant un nombre grandissant de projectiles. Entre les niveaux,
+        le joueur peut améliorer son vaisseau.
+        <br/><br/>`,
+    
+        objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+        Mettre en pratique l'encapsulation et l'architecture logicielle propre en C++.
+        Nous devions créer des systèmes capables de gérer beaucoup d'entités à l'écran sans impacter les performances.`,
+
+    tags: ["C++", "2D", "ASFML", "Architecture Code", "Encapsulation"],
     color: "#e6e600",
     videoSrc: "/Videos/Shoot-Them-Up/demo.mp4",
     images: [
@@ -188,8 +243,16 @@ function ProjectCard({ p }) {
         )}
 
         <div className="project-body">
-          {/* Rendu HTML pour interpréter <br/> et <strong> */}
+
+          {/* Description */}
+
           <p dangerouslySetInnerHTML={{ __html: p.desc }}></p>
+
+          {/* Objectif du projet */}
+
+          {p.objective && (
+            <p dangerouslySetInnerHTML={{ __html: p.objective }}></p>
+          )}
 
           <div className="skills-tags">
             {p.tags.map((t, i) => (
