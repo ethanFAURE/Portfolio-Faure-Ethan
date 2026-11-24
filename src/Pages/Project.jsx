@@ -2,6 +2,44 @@ import { useState } from 'react';
 
 export const projects = [
 {
+  title: "Duck And Furious",
+  engine: "Unity",
+  year: "2026",
+  genre: "Solo, Donjon Crawler",
+  durationTeam: "Durée : 2 personnes, 2 semaines",
+  mainImage: "/Images/Duck-And-Furious/Title.png",
+
+  desc: `<strong>DESCRIPTION</strong><br/>
+      Un donjon crawler solo dont la carte est une ville générée de façon procédurale.
+      Les immeubles et les salles de donjon sont créés par des algorithmes différents,
+      les pièces sont piégées automatiquement, et le joueur peut récupérer du loot
+      et des cosmétiques à équiper sur son personnage.
+      <br/><br/>`,
+
+  objective: `<strong>OBJECTIF DU PROJET</strong><br/>
+      Nous devions réaliser un donjon crawler en 2 semaines en utilisant
+      au moins un des 4 algorithmes de génération procédurale vus en cours.`,
+
+  tags: ["C#", "Génération procédurale", "BSP", "Cellular Automata", "Loot"],
+  color: "#ffaa00",
+  videoSrc: "/Videos/Duck-And-Furious/demo.mp4",
+  images: [
+    {
+      src: "/Images/Duck-And-Furious/1.png",
+      desc: "Présentation de la map, une ville générée de façon procédurale et vue du dessus. Le BSP est utilisé pour les salles du donjon et le SRP pour les immeubles."
+    },
+    {
+      src: "/Images/Duck-And-Furious/2.png",
+      desc: "Le Cellular Automata est utilisé pour générer les pièges à l'intérieur des salles."
+    },
+    {
+      src: "/Images/Duck-And-Furious/3.png",
+      desc: "Système de loot et de cosmétiques, qui peuvent être équipés sur le personnage."
+    }
+  ]
+},
+
+{
     title: "CRABATTLE",
     engine: "Unity",
     year: "2026",
