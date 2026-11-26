@@ -20,7 +20,7 @@ export const projects = [
         Ce projet de 2 semaines avait pour but d'apprendre le HLSL et, plus précisément,
         les Shader Graphs pour réaliser des VFX.`,
 
-    tags: ["Shader Graph", "HLSL", "VFX", "Génération procédurale", "Unity"],
+    tags: ["Shader Graph", "HLSL", "VFX", "Génération procédurale", "Noise", "Unity"],
     color: "#4da6ff",
     videoSrc: "/Videos/Over-The-Sea/WorldGeneration.mkv",
     images: [
@@ -48,9 +48,9 @@ export const projects = [
         Nous devions réaliser un donjon crawler en 2 semaines en utilisant
         au moins un des 4 algorithmes de génération procédurale vus en cours.`,
 
-    tags: ["C#", "Génération procédurale", "BSP", "Cellular Automata", "Loot"],
+    tags: ["C#", "Génération procédurale","SRP", "BSP", "Cellular Automata", "Loot"],
     color: "#ffaa00",
-    videoSrc: "/Videos/Duck-And-Furious/demo.mp4",
+    videoSrc: "/Videos/Duck-And-Furious/demo.mkv",
     images: [
       { src: "/Images/Duck-And-Furious/1.png", desc: "Présentation de la map, une ville générée de façon procédurale et vue du dessus. Le BSP est utilisé pour les salles du donjon et le SRP pour les immeubles." },
       { src: "/Images/Duck-And-Furious/2.png", desc: "Le Cellular Automata est utilisé pour générer les pièges à l'intérieur des salles." },
